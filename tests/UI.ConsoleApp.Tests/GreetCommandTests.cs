@@ -48,7 +48,7 @@ public class GreetCommandTests
         var app = ConsoleApplication.Create(services);
         app.Configure(config => config.Settings.Console = console);
 
-        var exitCode = await app.RunAsync(args);
+        var exitCode = await app.RunAsync(args, TestContext.Current.CancellationToken);
 
         return (exitCode, console.Output);
     }
