@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="global.json" />
+    <File Path="README.md" />
+    <File Path="version.json" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/UI.ConsoleApp/Ploch.TemplateConsole.UI.ConsoleApp.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/UI.ConsoleApp.Tests/Ploch.TemplateConsole.UI.ConsoleApp.Tests.csproj" />
+  </Folder>
+</Solution>
