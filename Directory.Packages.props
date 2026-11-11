@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup Label="Application">
-        <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="10.0.12" />
+        <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="10.0.14" />
         <PackageVersion Include="Ploch.Common" Version="4.0.47" />
         <PackageVersion Include="Spectre.Console" Version="0.57.2" />
         <PackageVersion Include="Spectre.Console.Cli" Version="0.57.2" />
@@ -32,10 +32,10 @@
     </ItemGroup>
 
     <ItemGroup Label="Analysers">
-        <GlobalPackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="10.0.401" />
+        <GlobalPackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="10.0.403" />
         <GlobalPackageReference Include="Microsoft.VisualStudio.Threading.Analyzers" Version="18.12.1" />
         <GlobalPackageReference Include="Roslynator.Analyzers" Version="5.0.1" />
         <GlobalPackageReference Include="SonarAnalyzer.CSharp" Version="10.35.0.4138" />
-        <GlobalPackageReference Include="StyleCop.Analyzers" Version="1.1.118" />
+        <GlobalPackageReference Include="StyleCop.Analyzers" Version="1.3.180" />
     </ItemGroup>
 </Project>
